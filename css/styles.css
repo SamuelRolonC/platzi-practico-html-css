@@ -43,11 +43,12 @@ h2 {
 }
 
 main .logo {
-    width: 100%;
+    position: absolute;
     height: 350px;
     display: flex;
     justify-content: center;
     align-items: center;
+    top: 116px;
 }
 
 main .logo figure {
@@ -55,18 +56,18 @@ main .logo figure {
     height: max-content;
     margin: 0;
 }
-
+/* 
 main .logo figure img {
     width: 210px;
     height: 190px;
-}
+} */
 
 main .principal-languages {
-    position: absolute;
-    top: 139px;
-    left: 30%;
-    width: 40%;
+    position: relative;
+    width: 550px;
     height: 300px;
+    margin-top: 30px;
+    /* background: url('../img/wikipedia-logo.png') no-repeat center center fixed; */
 }
 
 .language-feature {
@@ -88,59 +89,59 @@ main .principal-languages {
 }
 
 .lang1 {
-    position: relative;
+    position: absolute;
     left: 13%;
 }
 
 .lang2 {
-    position: relative;
-    top: 6%;
-    left: 2%;
+    position: absolute;
+    left: 63%;
 }
 
 .lang3 {
-    position: relative;
-    top: 14%;
+    position: absolute;
+    left: 5%;
+    top: 20%;
 }
 
 .lang4 {
-    position: relative;
-    top: 22%;
-    left: 2%;
+    position: absolute;
+    left: 73%;
+    top: 20%;
 }
 
 .lang5 {
-    position: relative;
-    top: 29.5%;
-    left: 13%;
+    position: absolute;
+    left: 2%;
+    top: 43%;
 }
 
 .lang6 {
-    position: relative;
-    top: -70.7%;
-    left: 65%;
+    position: absolute;
+    left: 75%;
+    top: 43%;
 }
 
 .lang7 {
-    position: relative;
-    top: -64%;
-    left: 76%;
+    position: absolute;
+    left: 5%;
+    top: 64%;
 }
 
 .lang8 {
-    position: relative;
-    top: -56%;
-    left: 79%;
+    position: absolute;
+    left: 73%;
+    top: 64%;
 }
 
 .lang9 {
-    position: relative;
-    top: -48.5%;
-    left: 76%;
+    position: absolute;
+    left: 13%;
+    top: 86%;
 }
 
 .lang10 {
-    position: relative;
-    top: -41.5%;
-    left: 65%;
+    position: absolute;
+    left: 63%;
+    top: 86%;
 }
