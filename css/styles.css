@@ -56,11 +56,6 @@ main .logo figure {
     height: max-content;
     margin: 0;
 }
-/* 
-main .logo figure img {
-    width: 210px;
-    height: 190px;
-} */
 
 main .principal-languages {
     position: relative;
@@ -144,4 +139,77 @@ main .principal-languages {
     position: absolute;
     left: 63%;
     top: 86%;
+}
+
+#searchInput {
+    font-size: 16px;
+    padding: 0.8em;
+    padding-right: 64px;
+    border: 1px solid #a2a9b1;
+    border-radius: 2px 0 0 2px;
+    width: 100%;
+}
+
+.search-wrapper {
+    position: relative;
+    margin-top: 30px;
+    width: 540px;
+}
+
+.select-wrapper {
+    display: block;
+    position: absolute;
+    top: 0.7em;
+    right: 1em;
+}
+
+.select-wrapper select {
+    opacity: 0;
+}
+
+#searchLanguage {
+    position: absolute;
+    z-index: 1;
+}
+
+.select-wrapper label {
+    color: #54595d;
+    font-size: 0.8em;
+}
+
+.search-input {
+    position: relative;
+    width: 73%;
+}
+
+.search-button {
+    display: inline-block;
+}
+
+.search-button button {
+    background-color: #36c;
+    border-color: #36c;
+    color: #fff;
+}
+
+/* Wikipedia resources */
+
+.svg-search-icon {
+    background-position: 0 -697px;
+    width: 22px;
+    height: 22px;
+}
+
+.svg-arrow-down {
+    background-position: 0 -519px;
+    width: 12px;
+    height: 8px;
+}
+
+.sprite {
+    background-image: linear-gradient(transparent,transparent), 
+        url(https://www.wikipedia.org/portal/wikipedia.org/assets/img/sprite-d7502d35.svg);
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: middle;
 }
